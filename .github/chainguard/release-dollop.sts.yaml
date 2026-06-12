@@ -1,0 +1,10 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:jamestelfer/dollop:environment:release
+claim_pattern:
+  ref: '^refs/tags/v.*$'
+
+permissions:
+  contents: write
+
+repositories:
+  - dollop
