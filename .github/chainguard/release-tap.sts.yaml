@@ -2,7 +2,7 @@ issuer: https://token.actions.githubusercontent.com
 subject_pattern: '^repo:jamestelfer/[^:]+:environment:release$'
 claim_pattern:
   ref: '^refs/tags/v.*$'
-  repository: '^jamestelfer/(dollop|relic|sandy|imds-broker)$'
+  repository: '^jamestelfer/(dollop|relic|sandy|imds-broker|boxed)$'
 
 permissions:
   contents: write
