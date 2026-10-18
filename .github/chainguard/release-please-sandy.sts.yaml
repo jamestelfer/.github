@@ -1,5 +1,5 @@
 issuer: https://token.actions.githubusercontent.com
-subject_pattern: '^repo:jamestelfer(@792299)?/sandy(@1204618252)?:environment:automation$'
+subject: repo:jamestelfer@792299/sandy@1204618252:environment:automation
 claim_pattern:
   ref: 'refs/heads/main'
 
