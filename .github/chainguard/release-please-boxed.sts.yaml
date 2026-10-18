@@ -1,5 +1,5 @@
 issuer: https://token.actions.githubusercontent.com
-subject: repo:jamestelfer/boxed:environment:automation
+subject_pattern: '^repo:jamestelfer(@792299)?/boxed(@1287940467)?:environment:automation$'
 claim_pattern:
   ref: 'refs/heads/main'
 
