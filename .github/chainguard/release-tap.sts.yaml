@@ -1,8 +1,8 @@
 issuer: https://token.actions.githubusercontent.com
-subject_pattern: '^repo:jamestelfer@792299/(dollop@1248224100|relic@1227317861|sandy@1204618252|imds-broker@1201841517|boxed@1287940467):environment:release$'
+subject_pattern: '^repo:jamestelfer@792299/(dollop@1248224100|relic@1227317861|sandy@1204618252|imds-broker@1201841517|boxed@1287940467|billy@1351037653|docker-credential-env@835094244):environment:release$'
 claim_pattern:
   ref: '^refs/tags/v.*$'
-  repository: '^jamestelfer/(dollop|relic|sandy|imds-broker|boxed)$'
+  repository: '^jamestelfer/(dollop|relic|sandy|imds-broker|boxed|billy|docker-credential-env)$'
 
 permissions:
   contents: write
