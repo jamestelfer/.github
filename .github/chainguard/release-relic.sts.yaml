@@ -1,5 +1,5 @@
 issuer: https://token.actions.githubusercontent.com
-subject: repo:jamestelfer/relic:environment:release
+subject_pattern: '^repo:jamestelfer(@792299)?/relic(@1227317861)?:environment:release$'
 claim_pattern:
   ref: '^refs/tags/v.*$'
 
