@@ -1,5 +1,5 @@
 issuer: https://token.actions.githubusercontent.com
-subject_pattern: '^repo:jamestelfer(@792299)?/[^:@]+(@[0-9]+)?:environment:release$'
+subject_pattern: '^repo:jamestelfer@792299/(dollop@1248224100|relic@1227317861|sandy@1204618252|imds-broker@1201841517|boxed@1287940467):environment:release$'
 claim_pattern:
   ref: '^refs/tags/v.*$'
   repository: '^jamestelfer/(dollop|relic|sandy|imds-broker|boxed)$'
