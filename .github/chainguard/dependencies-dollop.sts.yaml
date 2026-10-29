@@ -1,0 +1,11 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:jamestelfer@792299/dollop@1248224100:environment:dependencies
+claim_pattern:
+  ref: '^refs/heads/renovate/.*$'
+  job_workflow_ref: '^jamestelfer/dollop/\.github/workflows/mermaid-integrity\.yml@refs/heads/renovate/.*$'
+
+permissions:
+  contents: write
+
+repositories:
+  - dollop
