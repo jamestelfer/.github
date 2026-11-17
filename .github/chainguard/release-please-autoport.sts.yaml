@@ -1,0 +1,11 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:jamestelfer@792299/autoport@1461300455:environment:automation
+claim_pattern:
+  ref: 'refs/heads/main'
+
+permissions:
+  contents: write
+  pull_requests: write
+
+repositories:
+  - autoport

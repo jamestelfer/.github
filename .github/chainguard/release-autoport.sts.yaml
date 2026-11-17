@@ -1,0 +1,10 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:jamestelfer@792299/autoport@1461300455:environment:release
+claim_pattern:
+  ref: '^refs/tags/v.*$'
+
+permissions:
+  contents: write
+
+repositories:
+  - autoport
